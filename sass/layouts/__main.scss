@@ -1,0 +1,148 @@
+.about-us {
+    display: flex;
+    margin-top: 5rem;
+    background-color: $color-grey-light;
+    padding: 3rem 6rem;
+
+    &__photo {
+        display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+        
+        align-items: center;
+        justify-items: center;
+
+        &--block {
+            width: 50%;
+        }
+
+        &--picture {
+            // padding: 2rem 0rem 2rem 3rem;
+            width: 90%;
+            
+            // align-items: center;
+            
+            &:not(:last-child) {
+                padding-bottom: 2rem;
+            }
+        }
+    }
+
+    &__info {
+        width: 50%;
+        position: relative;
+
+        &--heading {
+            padding-bottom: 2rem;
+        }
+
+        &--paragraph {
+            padding-bottom: 4rem;
+        }
+
+        &--btn {
+            // position: absolute;
+            // left: 0;
+            // bottom: 10%;
+        }
+    }
+}
+
+
+.goal {
+    display: flex;
+    flex-wrap: wrap;
+    // background-color: red;
+    &__heading {
+        padding-top: 5rem;
+        flex-basis: 100%;
+    }
+
+    &-container {
+        display: flex;
+
+
+        &--numbers {
+            font-weight: bold;
+            font-size: 20rem;
+            color: $color-grey;
+        }
+        &--paragraph {
+            padding-top: 5rem;
+            padding-left: 2rem;
+            padding-right: 4rem;
+            font-size: 2.2rem;
+            text-align: justify;
+        }
+    }
+}
+
+.images-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &--btn {
+        background-color: #333333;
+        color: white;
+        margin: 3rem auto 0rem auto;
+        
+    }
+    
+    &--images {
+        margin-top: 2rem;
+        
+    }
+}
+
+.contact-us {
+    display: flex;
+    // background-color: greenyellow;
+    justify-content: space-between;
+
+    padding-bottom: 10rem;
+
+
+    &__image {
+        padding-left: 2rem;
+    }
+
+    &__form {
+        // background-color: #fff;
+        
+        &--fill {
+            width: 100%;
+            background-color: $color-grey-light;
+            border: none;
+            padding: 1rem;
+            margin-top: 1rem;
+
+            &:last-child {
+                height: 18rem;
+            }
+
+        }
+    }
+}
+
+
+footer {
+    background-color: #2C2C2C;
+    max-width: 1440px;
+    display: flex;
+    // flex-direction: column;
+    margin: auto;
+    padding: 0 13.5rem;
+    color: white;
+    height: 10rem;
+
+
+    
+}
+
+// .footer__logo-box {
+//     &--logo {
+//         fill: white;
+//     }
+// }

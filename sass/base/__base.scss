@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;}
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  *::before,
+  *::after {
+    box-sizing: inherit; }
+  
+  body {
+    background-color: $color-grey-light;
+    font-family: 'TT Hoves';
+    color: black;
+
+  } 
+
+.container {
+    background-color: #fff;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 13.5rem;
+  }
+
+
+
+  .block-element {
+    display: block;
+  }
+
+
+  .btn {
+    background-color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    
+    
+    // text-align: center;
+    
+
+    &__round {
+
+      border: 1px solid $color-grey;
+      border-radius: 1rem;
+      color: $color-grey;
+      
+      &:not(:last-child) {
+      margin-right: 3rem;
+      margin-top: 5rem;
+      }
+
+    }
+
+    &__square {
+        border-radius: 0;
+        color: black;
+        border: none; 
+    }
+  
+        
+    
+  }
+
+
+  .one-of-two {
+    width: 50%;
+  } 
+
+  .one-of-three {
+    width: 33%;
+  }
+
+  .two-of-three {
+    width: 66%;
+  }
